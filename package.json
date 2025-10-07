@@ -13,6 +13,7 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
+    "@datadog/datadog-api-client": "^1.43.0",
     "@prisma/client": "^6.15.0",
     "c12": "^3.1.0",
     "chokidar": "^4.0.3",
@@ -29,6 +30,7 @@
     "exsolve": "^1.0.7",
     "fast-check": "^3.23.2",
     "giget": "^2.0.0",
+    "hot-shots": "^11.2.0",
     "jiti": "^2.5.1",
     "node-fetch-native": "^1.6.7",
     "nodemon": "^3.1.10",
@@ -36,11 +38,13 @@
     "ohash": "^2.0.11",
     "pathe": "^2.0.3",
     "perfect-debounce": "^1.0.0",
+    "pino": "^9.9.5",
     "pkg-types": "^2.3.0",
     "pure-rand": "^6.1.0",
     "rc9": "^2.1.2",
     "readdirp": "^4.1.2",
-    "tinyexec": "^1.0.1"
+    "tinyexec": "^1.0.1",
+    "uuid": "^13.0.0"
   },
   "devDependencies": {
     "prisma": "^6.15.0"
